@@ -20,7 +20,7 @@ Realtime pitch shifting feature Rubberbridge fully rely on RubberBand which roug
 ## Build
 
 ```
-$ sudo apt install libjack-jackd2-dev ncurses-dev
+$ sudo apt install libjack-jackd2-dev ncurses-dev librubberband-dev
 $ git clone --recursive https://github.com/muojp/rubberbridge.git
 $ cd rubberbridge && mkdir build && cd build
 $ cmake .. && make
